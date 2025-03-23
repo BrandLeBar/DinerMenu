@@ -1,4 +1,13 @@
-﻿Public Class DinerMenuForm
+﻿'Brandon Barrera
+'RCET0265
+'Spring 2025
+'https://github.com/BrandLeBar/DinerMenu.git
+
+Option Explicit On
+Option Strict On
+Option Compare Text
+
+Public Class DinerMenuForm
 
     Private Sub SoupButton_Click(sender As Object, e As EventArgs) Handles SoupButton.Click
         DisplaySpecialLabel.Text = ("~ Soup of the day ~" & vbNewLine &
